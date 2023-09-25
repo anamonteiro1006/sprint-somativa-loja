@@ -1,0 +1,73 @@
+body{
+    background-color: #afacac;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
+.time{
+    text-align: center;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.time p{
+    color: white;
+    font-size: 20px;
+}
+.time-produtos{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.prods{
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+}
+.cardvi{
+    text-align: center;
+}
+.valorDolar,
+.valorReal {
+    font-weight: bold;
+    color: black; 
+}
+p{
+    color: black;
+}
+
+.rodap {
+    text-align: center;
+}
+
+.rdpinteiro {
+    align-items: center;
+}
+footer {
+    background-color:#6c6b6b;
+    padding: 5px;
+    text-align: center;
+    margin-top: 35px;
+}
+.logo3 {
+
+    text-align: center;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.rodap p{
+    font-size: 20px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}

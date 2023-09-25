@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-color: #afacac;
+}
+
+header {
+    background-color:#6c6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex; /* Usar flexbox para alinhar os elementos do header */
+    justify-content: space-between; /* Espaço entre os elementos do header */
+    align-items: center; /* Centralizar verticalmente */
+}
+.back-button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right:150px; /* Isso alinhará o botão à direita */
+}
+
+header h1 {
+    margin-left: 150px;
+}
+
+.product-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #0000001a;
+    display: flex; /* Usar flexbox para alinhar card e formulário lado a lado */
+    flex-wrap: wrap; /* Permitir que eles quebrem para baixo em telas menores */
+    gap: 20px;
+    align-items: center;
+}
+
+.product-images img {
+    max-width: 100%;
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-info h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.buy-button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
+.row justify-content-center{
+    margin-top: 50px;
+}
+.order-form {
+    max-width: 400px;
+    margin: 20px auto; /* Centralizar verticalmente */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+.header h1 {
+    margin-bottom: 20px; /* Adicione a margem inferior desejada */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Para tornar o botão responsivo */
+.header button {
+    flex-shrink: 0; /* Evita que o botão encolha demais em telas pequenas */
+    margin-right: 150px;
+    text-align: center;
+}
+
+.card {
+    max-width: 300px; /* Ajuste o valor conforme necessário para diminuir o tamanho do card */
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:25px;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+.my-card {
+    max-width: 100%; /* O card ocupará toda a largura da tela em telas menores */
+    margin: 0 auto; /* Centralizar o card horizontalmente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 25px; /* Ajuste a margem superior conforme necessário */
+}
+
+.my-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    background-color:blue;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.back-button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px; /* Adicione uma margem direita para separar do texto */
+}
+
+.rodap {
+    text-align: center;
+}
+
+.rdpinteiro {
+    align-items: center;
+}
+footer {
+    background-color:#6c6b6b;
+    padding: 5px;
+    text-align: center;
+    margin-top: 35px;
+}
+.logo3 {
+
+    text-align: center;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.rodap p{
+    font-size: 20px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+
+
+
+

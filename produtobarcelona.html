@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisa Barcelona</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="produto.css">
+</head>
+<body>
+    <header>
+        <h1>Camisa Barcelona</h1>
+        <button class="back-button ml-auto" onclick="goToIndex()">Voltar</button>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center"> 
+            <div class="col-md-6">
+                <div class="my-card card">
+                    <img src="imagens/camisadobarca.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisa Barcelona</h5>
+                        <p class="card-text">
+                            <span class="valorDolar">120</span> US$
+                            <span class="valorReal">0</span> R$
+                        </p>
+                       <p>O FC Barcelona 2023/24 Home homenageia a jornada de 30 anos da seleção feminina incorporada ao clube. O brasão tem uma forma de diamante escondida que foi historicamente usada pela equipe feminina, e as listras clássicas têm um padrão de diamante ao longo das bordas. A nossa coleção Stadium combina detalhes da camisa de réplica com tecnologia antissuor para oferecer um look pronto para o jogo e inspirado no seu time favorito.</p><br>
+                        <a href="produtobarcelona.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="order-form">
+                    <h2><strong>Calcule o Frete</strong></h2>
+                    <div><input type="text" id="cep1" placeholder="CEP"></div>
+                    <br>
+                    <div><input type="text" id="rua" placeholder="Rua" readonly></div>
+                    <br>
+                    <div><input type="text" id="bairro" placeholder="Bairro" readonly></div>
+                    <br>
+                    <div><input type="text" id="cidade" placeholder="Cidade" readonly></div>
+                    <br>
+                    <div><input type="text" id="estado" placeholder="Estado" readonly></div>
+                    <br>
+                    <div><input type="text" id="frete" placeholder="Valor do frete" readonly></div>
+                    <br>
+                    <button onclick="endereco()">Calcular</button>
+                    <button id="verFrete" onclick="abrirPaginaFrete()"> Tabela Valor Frete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <nav>
+          <ul>
+            <div class="rdpinteiro">
+              <div class="rodap">
+                <p>Os preços, promoções, condições de pagamento, frete e produtos são válidos exclusivamente para compras realizadas via internet.</p>
+                <ul>
+                  <li><a href="contato.html">Contato</a></li>
+                  <li><a href="especialidades.html">Central de ajuda</a></li>
+                  <li><a href="sobrenos.html">Sobre Nós</a></li>
+                </ul>
+              </div>
+              <div class="logo3"><img src="imagens/logoooo-removebg-preview.png" alt=""></div>
+            </div>
+          </ul>
+        </nav>
+      </footer>
+
+    <script src="cep.js"></script>
+    <script src="dolar.js"></script>
+    <script>
+          function goToIndex() {
+            window.location.href = "index.html"; 
+          }
+
+          function abrirPaginaFrete() {
+  var urlImagemFrete = "imagens/tabelinha.jpg";
+  window.open(urlImagemFrete, "_blank");
+}
+    </script>
+</body>
+</html>
